@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicType", "02_Types\Basic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operators", "03_Operators\Operators.csproj", "{64D4F3BC-3E9D-49AB-A421-43697F953223}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings", "04_Strings\Strings.csproj", "{2537540F-8626-4C89-9E09-BDB8A51CD324}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{64D4F3BC-3E9D-49AB-A421-43697F953223}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64D4F3BC-3E9D-49AB-A421-43697F953223}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64D4F3BC-3E9D-49AB-A421-43697F953223}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2537540F-8626-4C89-9E09-BDB8A51CD324}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2537540F-8626-4C89-9E09-BDB8A51CD324}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2537540F-8626-4C89-9E09-BDB8A51CD324}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2537540F-8626-4C89-9E09-BDB8A51CD324}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
