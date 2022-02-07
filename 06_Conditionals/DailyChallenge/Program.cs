@@ -93,17 +93,24 @@ switch(orderType) {
 
 // SEVEN --- I can't figure out how to do this with a bool 
 
-Console.WriteLine("Are you happy? y/n");
-string userAnswer = Console.ReadLine();
 
-if (userAnswer == "y") {
+
+Console.WriteLine("Rate your happiness today on a scale of 1-10.");
+string userAnswer = Console.ReadLine();
+int happyRating = int.Parse(userAnswer);
+
+bool happy = happyRating >= 5;
+
+if(happy){
     Console.WriteLine("Great, glad to hear it.");
 }
 else {
     Console.WriteLine("Oh... well, there's always tomorrow.");
-}
+};
 
 
 
 // EIGHT
+
+Console.WriteLine("What is your annual salary?");
 
